@@ -48,7 +48,7 @@ get_hospital_name <- function(mydata, state, outcome_col) {
 }
 
 #Tests
-#source("best.R")
+source("best.R")
 
 best("TX", "heart attack")
 
@@ -61,3 +61,6 @@ best("MD", "pneumonia")
 best("BB", "heart attack")
 
 best("NY", "heart attack")
+
+
+#test test test
